@@ -265,7 +265,3 @@ class EiXGNN(ExplainerAlgorithm):
             sub_pred = self.model(x=x, edge_index=edge_index_sub)
             node_importance[node_index] = torch.norm(pred - sub_pred, p=1)
         return node_importance.to(x.device)
-
-
-if __name__ == "__main__":
-
