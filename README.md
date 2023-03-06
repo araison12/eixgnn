@@ -1,5 +1,5 @@
-Here is the an example code for using EiXGNN from the `"EiX-GNN: Concept-level eigencentrality explainer for graph neural
-    networks"<https://arxiv.org/abs/2206.03491>`_ paper
+Here is the an example code for using EiXGNN from the [EiX-GNN: Concept-level eigencentrality explainer for graph neural
+    networks](https://arxiv.org/abs/2206.03491) paper
 
 ```python
 from torch_geometric.datasets import TUDataset
