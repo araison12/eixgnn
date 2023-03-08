@@ -9,6 +9,7 @@ data = dataset[0]
 
 import torch.nn.functional as F
 from torch_geometric.nn import GCNConv, global_mean_pool
+from eixgnn.eixgnn import EiXGNN
 
 class GCN(torch.nn.Module):
     def __init__(self):
